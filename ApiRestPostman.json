@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "5ddbf9ac-2988-4c77-a18c-90c255e85c31",
+		"name": "Open ApiRest Spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api/laptop Mostar todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/laptop",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/laptop Añadir",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{       \n        \"nombre\": \"Toquin\",\n        \"precio\": 1999.0,\n        \"memoriaRam\": 189,\n        \"procesador\": \"Mex Mex Pue \",\n        \"discoDuro\": 1208,\n        \"pantalla\": 30\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/laptop",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/laptop Mostrar por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/laptop/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptop",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/laptop Actualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{       \n        \"id\": 4,\n        \"nombre\": \"Nuevo\",\n        \"precio\": 14.0,\n        \"memoriaRam\": 1,\n        \"procesador\": \"Hola Hola Pue \",\n        \"discoDuro\": 8,\n        \"pantalla\": 3\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/laptop",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptop/4 Eliminar por id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/laptop/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptop",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/laptop/ Eliminar todo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/laptop",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptop"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

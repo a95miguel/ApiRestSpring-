@@ -16,8 +16,11 @@ El acceso se puede realizar con Postman o el navejador.
 
 ##Creacion las clases necesarias para trabajar con "ordenadores":
 Laptop (entidad) - LaptopRepository (repositorio) - LaptopController (controlador)
-Desde LaptopController crea un método que devuelva una lista de objetos Laptop.
-Los objetos Laptop se  insertan desde el método main de la clase principal.
 
 ##Creacion de un método en LaptopController que reciba un objeto Laptop enviado en formato JSON desde Postman y persistirlo en la base de datos.
-Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
+
+##Implementar los métodos CRUD: findAll(),findOneById(),create(),update(),delete(),deleteAll()
+
+##Implementar swagger sobre el API REST y verificar que funciona en la URL: http://localhost:8081/swagger-ui/
+
+##Crear casos de test para el controlador de Laptop desde Spring Boot
