@@ -23,4 +23,10 @@ Laptop (entidad) - LaptopRepository (repositorio) - LaptopController (controlado
 
 ##Implementar swagger sobre el API REST y verificar que funciona en la URL: http://localhost:8081/swagger-ui/
 
+Probar a empaquetar la aplicación con maven package, vereficar desde la terminal el comando: java -jar target/demo-0.0.1-SNAPSHOT.jar.
+Crear un perfil para dev y otro para test con una propiedad nueva que carguemos en el controlador.
+
+
+
+
 ##Crear casos de test para el controlador de Laptop desde Spring Boot
