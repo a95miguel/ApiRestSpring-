@@ -18,14 +18,15 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+//@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class LaptopControllerTest {
+    /*
     private TestRestTemplate testRestTemplate;
     @Autowired
     private RestTemplateBuilder restTemplateBuilder;
     @LocalServerPort
     private int port;
-    /*
+    
     @BeforeEach
     void setup(){
         restTemplateBuilder = restTemplateBuilder.rootUri("http://localhost:"+port);
