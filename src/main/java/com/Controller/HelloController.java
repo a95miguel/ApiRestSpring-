@@ -15,7 +15,7 @@ public class HelloController {
                 System.out.println(valor);
     return "Hola desde Api Rest con Spring";    
             }
-    @GetMapping("/saludo")
+    @GetMapping("/")
     public String saludo(){
         return """
                <!doctype html>

@@ -28,3 +28,7 @@ Laptop (entidad) - LaptopRepository (repositorio) - LaptopController (controlado
 Probar a empaquetar la aplicación con maven package, vereficar desde la terminal el comando: java -jar target/demo-0.0.1-SNAPSHOT.jar.
 Crear un perfil para dev y otro para test con una propiedad nueva que carguemos en el controlador.
 
+##Desplegar el API REST de Laptops en Render 
+https://apirestspring.onrender.com
+
+##Implementacion Spring Security sobre el proyecto  y configurar 2 usuarios en memoria utilizando una clase WebSecurityConfig.
