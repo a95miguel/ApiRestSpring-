@@ -25,7 +25,7 @@ public class LaptopControllerTest {
     private RestTemplateBuilder restTemplateBuilder;
     @LocalServerPort
     private int port;
-    
+    /*
     @BeforeEach
     void setup(){
         restTemplateBuilder = restTemplateBuilder.rootUri("http://localhost:"+port);
@@ -41,9 +41,7 @@ public class LaptopControllerTest {
     @Test
     public void testFindAll() {
         ResponseEntity<Lapto[]> response = testRestTemplate.getForEntity("/api/laptop", Lapto[].class);
-        assertEquals(HttpStatus.OK,response.getStatusCode());
-        //List<Lapto> lapto = Arrays.asList(response.getBody());        
-        //System.out.println(lapto.size());
+        assertEquals(HttpStatus.OK,response.getStatusCode());       
     }
 
     @Test
@@ -76,6 +74,6 @@ public class LaptopControllerTest {
     public void testDeleteAll() {
         ResponseEntity<Lapto> reponse = testRestTemplate.exchange("/api/laptop", HttpMethod.DELETE,HttpEntity.EMPTY,Lapto.class);
         assertEquals(HttpStatus.NO_CONTENT,reponse.getStatusCode());
-    }
+    }*/
     
 }

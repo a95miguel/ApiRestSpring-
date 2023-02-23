@@ -35,16 +35,6 @@ public class WebSecurityConfig {
         
         return http.build();
     }
-    /*
-    @Autowired
-    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
-                .passwordEncoder(passwordEncoder())
-                .withUser("user").password(passwordEncoder().encode("12345")).roles("USER")
-                .and()
-                .withUser("admin").password(passwordEncoder().encode("123456789")).roles("ADMIN");
-    }
-    */
     @Bean
     public InMemoryUserDetailsManager userDetailsService(PasswordEncoder passwordEncoder) throws Exception {
          UserDetails user = User.withUsername("USER")
